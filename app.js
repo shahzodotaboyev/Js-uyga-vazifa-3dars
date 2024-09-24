@@ -133,11 +133,124 @@
 
 // If 9 
 
+// let a = prompt('a sonni kiriting');
+// let b = prompt('b sonni kiriting');
+// switch (true) {
+//     case a === b:
+//         a = 0;
+//         b = 0;
+//         break;
+//     default:
+//         if (a > b) {
+//             b = a;
+//         } else {
+//             b = a;
+//         }
+// }
+// console.log("a: " + a);
+// console.log("b: " + b);
+
+
+// If 10
+
+// let a = prompt('a sonni kiriting');
+// let b = prompt('b sonni kiriting');
+// let c = prompt('c sonni kiriting');
+
+// let min;
+// if (a < b && a < c) {
+//     min = a;
+// }else if(b <a && b < c){
+//     min = b;
+// }else{
+//     min = c;
+// }
+// console.log("Kichkina son: " +min);
 
 
 
+// If 11
+// let a = Number(prompt("a ga qiymat bering"));
+// let b = Number(prompt("b ga qiymat bering"));
+// let c = Number(prompt("c ga qiymat bering"));
+
+// let middle;
+
+// switch (true) {
+//     case (a > b && a < c) || (a > c && a < b):
+//         middle = a;
+//         break;
+//     case (b > a && b < c) || (b > c && b < a):
+//         middle = b;
+//         break;
+//     case (c > a && c < b) || (c > b && c < a):
+//         middle = c;
+//         break;
+// }
+
+// console.log("O'rtadagi son:", middle);
 
 
+// If 12
+// let a = Number(prompt("a ga qiymat bering"));
+// let b = Number(prompt("b ga qiymat bering"));
+// let c = Number(prompt("c ga qiymat bering"));
+
+// let maxSum;
+// let num1, num2;
+
+// switch (true) {
+//   case (a + b >= a + c && a + b >= b + c):
+//     maxSum = a + b;
+//     num1 = a;
+//     num2 = b;
+//     break;
+//   case (a + c >= a + b && a + c >= b + c):
+//     maxSum = a + c;
+//     num1 = a;
+//     num2 = c;
+//     break;
+//   case (b + c >= a + b && b + c >= a + c):
+//     maxSum = b + c;
+//     num1 = b;
+//     num2 = c;
+//     break;
+// }
+
+// console.log("Eng katta yig'indi", maxSum, " bo'lgan sonlar:", num1, "va", num2);
+
+
+// If 13
+// let a = Number(prompt("a ga qiymat bering"));
+// let b = Number(prompt("b ga qiymat bering"));
+// let c = Number(prompt("c ga qiymat bering"));
+
+// a *= 2;
+// b *= 2;
+// c *= 2;
+
+// let maxSum;
+// let num1, num2;
+
+// switch (true) {
+//   case (a + b >= a + c && a + b >= b + c):
+//     maxSum = a + b;
+//     num1 = a;
+//     num2 = b;
+//     break;
+//   case (a + c >= a + b && a + c >= b + c):
+//     maxSum = a + c;
+//     num1 = a;
+//     num2 = c;
+//     break;
+//   case (b + c >= a + b && b + c >= a + c):
+//     maxSum = b + c;
+//     num1 = b;
+//     num2 = c;
+//     break;
+// }
+
+// console.log("Eng katta yig'indi", maxSum, " bo'lgan sonlar:", num1, "va", num2);
 
 
 
