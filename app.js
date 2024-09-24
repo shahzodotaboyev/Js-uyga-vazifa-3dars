@@ -254,6 +254,53 @@
 
 
 
+// If 14 
+// let A = parseFloat(prompt("A ga haqiqiy son kiriting:"));
+// let B = parseFloat(prompt("B ga haqiqiy son kiriting:"));
+// let C = parseFloat(prompt("C ga haqiqiy son kiriting:"));
+
+// if ((A <= B && B <= C) || (A >= B && B >= C)) {
+//     A *= 2;
+//     B *= 2;
+//     C *= 2;
+// } else {
+//     A = -A;
+//     B = -B;
+//     C = -C;
+// }
+
+// console.log("A:", A);
+// console.log("B:", B);
+// console.log("C:", C);
+
+
+// If 15
+// let num1 = Number(prompt("Birinchi sonni kiriting:"));
+// let num2 = Number(prompt("Ikkinchi sonni kiriting:"));
+// let num3 = Number(prompt("Uchinchi sonni kiriting:"));
+// let num4 = Number(prompt("To'rtinchi sonni kiriting:"));
+
+// let uniqueIndex;
+
+// if (num1 === num2 && num1 === num3) {
+//     uniqueIndex = 4;
+// } else if (num1 === num2 && num1 === num4) {
+//     uniqueIndex = 3;
+// } else if (num1 === num3 && num1 === num4) {
+//     uniqueIndex = 2;
+// } else if (num2 === num3 && num2 === num4) {
+//     uniqueIndex = 1;
+// } else {
+//     uniqueIndex = null;
+// }
+
+// if (uniqueIndex) {
+//     console.log("Uchinchi teng bo'lmagan son tartib raqami:", uniqueIndex);
+// } else {
+//     console.log("Uchta son teng emas!");
+// }
+
+
 
 // If 16
 // function funksiya() {
@@ -275,3 +322,256 @@
 
 
 // If 17
+// let year = Number(prompt("Yilni kiriting:"));
+
+// let daysInYear;
+
+// if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+//     daysInYear = 366; 
+// } else {
+//     daysInYear = 365;
+// }
+
+// console.log(year + " yilida " + daysInYear + " kun bor.");
+
+
+// let number = Number(prompt("1 dan 999 gacha bo'lgan sonni kiriting:"));
+
+// if (number < 1 || number > 999) {
+//     console.log("Iltimos, 1 dan 999 gacha bo'lgan son kiriting.");
+// } else {
+//     if (number >= 10 && number < 100) {
+//         if (number % 2 === 0) {
+//             console.log(number + " - ikki xonali juft son.");
+//         } else {
+//             console.log(number + " - ikki xonali toq son.");
+//         }
+//     } else if (number >= 100 && number < 1000) {
+//         if (number % 2 === 0) {
+//             console.log(number + " - uch xonali juft son.");
+//         } else {
+//             console.log(number + " - uch xonali toq son.");
+//         }
+//     } else {
+//         console.log(number + " - bitta xonali son.");
+//     }
+// }
+
+
+// ----------------------------------------------------------------
+
+
+
+// case 1
+// let k = Number(prompt("Bahoni kiriting"));
+
+// switch (k) {
+//     case 1:
+//         console.log("Yomon");
+//         break;
+//     case 2:
+//         console.log("Qoniqarsiz");
+//         break;
+//     case 3:
+//         console.log("Qoniqarli");
+//         break;
+//     case 4:
+//         console.log("Yaxshi");
+//         break;
+//     case 5:
+//         console.log("A'lo");
+//         break;
+//     default:
+//         console.log("Xato");
+// }
+
+
+
+
+// case 2
+
+// let kun = Number(prompt("Oy ni kiriting: "));
+// switch (kun) {
+//     case 12:
+//     case 1:
+//     case 2:
+//         console.log("qish");
+//         break;
+//     case 3:
+//     case 4:
+//     case 5:
+//         console.log("Bahor");
+//         break;
+//     case 6:
+//     case 7:
+//     case 8:
+//         console.log("Yoz");
+//         break;
+//     case 9:
+//     case 10:
+//     case 11:
+// console.log("Kuz");
+// break;
+// }
+
+
+
+// case 3
+// let oy = Number(prompt("oyni kiriting: "));
+// switch (oy) {
+//     case 1:
+//     case 3:
+//     case 5:
+//     case 7:
+//     case 9:
+//     case 11:
+//         console.log("Bu oyda 31 kun bor: ");
+//         break;
+//     case 4:
+//     case 6:
+//     case 8:
+//     case 10:
+//     case 12:
+//         console.log("Bu oyda 30 kun bor: ");
+//         break;
+//     case 2:
+//         console.log("Bu oyda 28 kun bor: ");
+//         break;
+//     default :
+//     console.log("Bunday oy yo'q: ");
+// }
+
+
+// case 4
+// let turi = Number(prompt("Uzunlik birligini tanlang (1 - Desimetr, 2 - Kilometr, 3 - Metr, 4 - Millimetr, 5 - Santimetr):"));
+// let uzunlik = Number(prompt("Kesma uzunligini kiriting:"));
+
+// let metr;
+// switch (turi) {
+//     case 1:
+//         metr = uzunlik / 10; 
+//         break;
+//     case 2:
+//         metr = uzunlik * 1000; 
+//         break;
+//     case 3:
+//         metr = uzunlik; 
+//         break;
+//     case 4:
+//         metr = uzunlik / 1000; 
+//         break;
+//     case 5:
+//         metr = uzunlik / 100; 
+//         break;
+//     default:
+//         console.log("Xato: 1 dan 5 gacha son kiriting.");
+//         break;
+// }
+
+// if (metr !== undefined) {
+//     console.log("Bu metrda: " + metr);
+// }
+
+
+
+// Case 5
+// let turi = Number(prompt("Og'irlik birligini tanlang (1 - Kilogramm, 2 - Milligramm, 3 - Gramm, 4 - Tonna, 5 - Sentner):"));
+// let qiymat = Number(prompt("Og'irlik qiymatini kiriting:"));
+
+// let kilogram;
+
+// switch (turi) {
+//     case 1: 
+//         kilogram = qiymat; 
+//         break;
+//     case 2: 
+//         kilogram = qiymat / 1000000; 
+//         break;
+//     case 3: 
+//         kilogram = qiymat / 1000; 
+//         break;
+//     case 4: 
+//         kilogram = qiymat * 1000; 
+//         break;
+//     case 5: 
+//         kilogram = qiymat * 100; 
+//         break;
+//     default:
+//         console.log("Xato: 1 dan 5 gacha son kiriting.");
+//         break;
+// }
+
+// if (kilogram !== undefined) {
+//     console.log("Og'irlik kilogrammda: " + kilogram + " kg");
+// }
+
+
+// Case 6 (buni chatgptidan oldim)
+// let D = Number(prompt("Kun (D) ni kiriting (1-31):"));
+// let M = Number(prompt("Oy (M) ni kiriting (1-12):"));
+
+// const kunlar = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]; 
+
+// if (M < 1 || M > 12) {
+//     console.log("Xato: Oy 1 dan 12 gacha bo'lishi kerak.");
+// } else if (D < 1 || D > kunlar[M]) {
+//     console.log("Xato: Berilgan oy uchun kun 1 dan " + kunlar[M] + " gacha bo'lishi kerak.");
+// } else {
+//     const oylar = [
+//         "Yanvar", "Fevral", "Mart", "Aprel", "May", "Iyun",
+//         "Iyul", "Avgust", "Sentabr", "Oktabr", "Noyabr", "Dekabr"
+//     ];
+
+//     console.log(`Berilgan sana: ${D} ${oylar[M - 1]} (Kabisa bo'lmagan yil)`);
+// }
+
+
+// case  7
+
+// let D = Number(prompt("Kun (D) ni kiriting (1-31):"));
+// let M = Number(prompt("Oy (M) ni kiriting (1-12):"));
+
+// const kunlar = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]; 
+// if (M < 1 || M > 12) {
+//     console.log("Xato: Oy 1 dan 12 gacha bo'lishi kerak.");
+// } else if (D < 1 || D > kunlar[M]) {
+//     console.log("Xato: Berilgan oy uchun kun 1 dan " + kunlar[M] + " gacha bo'lishi kerak.");
+// } else {
+//     D++; 
+//     if (D > kunlar[M]) { 
+//         D = 1; 
+//         M++; 
+//         if (M > 12) { 
+//             M = 1; 
+//         }
+//     }
+
+//     const oylar = [
+//         "Yanvar", "Fevral", "Mart", "Aprel", "May", "Iyun",
+//         "Iyul", "Avgust", "Sentabr", "Oktabr", "Noyabr", "Dekabr"
+//     ];
+
+//     console.log(`Berilgan sanadan keyingi sana: ${D} ${oylar[M - 1]} `);
+// }
+
+
+// case 8 (buni chatgptdan oldim)
+// let Y = prompt("Robotning yo'nalishini kiriting (s - shimol, j - janub, q - sharq, g - g'arb):");
+// let K = prompt("Kamanda kiriting (0 - harakatni davom ettirish, 1 - chapga burilish, 2 - o'ngga burilish):");
+
+// const yonalishlar = ["s", "q", "j", "g"]; 
+// let index = yonalishlar.indexOf(Y); 
+
+// if (K === "0") {
+//     console.log(`Robotning holati: ${yonalishlar[index]} (harakatni davom ettiradi)`);
+// } else if (K === "1") {
+//     index = (index + 3) % 4;
+//     console.log(`Robotning holati: ${yonalishlar[index]} (chapga burildi)`);
+// } else if (K === "2") {
+//     index = (index + 1) % 4;
+//     console.log(`Robotning holati: ${yonalishlar[index]} (o'ngga burildi)`);
+// } else {
+//     console.log("Xato: Kamanda 0, 1 yoki 2 bo'lishi kerak.");
+// }
+
+
